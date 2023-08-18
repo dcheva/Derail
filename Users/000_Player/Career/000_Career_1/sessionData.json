@@ -1,0 +1,16 @@
+{
+  "DataVersion": 1,
+  "Name": "Сессия карьеры 1",
+  "GameMode": "Career",
+  "World": "World1",
+  "SessionID": 0,
+  "GameData": {
+    "Difficulty_params": {
+      "_Difficulty_preset": "Realistic"
+    },
+    "Consistent_difficulty": true,
+    "Starting_difficulty": {
+      "_Difficulty_preset": "Realistic"
+    }
+  }
+}
