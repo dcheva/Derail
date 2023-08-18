@@ -1,7 +1,7 @@
 {
   "DataVersion": 1,
-  "Name": "Сессия карьеры 1",
-  "GameMode": "Career",
+  "Name": "Сессия свободной игры 1",
+  "GameMode": "FreeRoam",
   "World": "World1",
   "SessionID": 0,
   "GameData": {
