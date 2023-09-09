@@ -8,16 +8,16 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
     Vendor:   
     VRAM:     5980 MB
-    Driver:   31.0.15.3640
+    Driver:   31.0.15.3713
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.146 seconds
+- Completed reload, in  0.130 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 The referenced script on this Behaviour (Game Object '[init]') is missing! 
 (Filename:  Line: 334)
 
-UnloadTime: 0.435500 ms
+UnloadTime: 0.454700 ms
 [Globals] fetching default config from resources 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -27,13 +27,13 @@ Initializing console
 Creating UnloadWatcher singleton instance '[UnloadWatcher]' automatically 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Build version: Build #95
+Build version: Build #96
 Build destination: steam
-Build timestamp: 2023-07-21 15:50:07.407289 UTC
-Build number: build1047
+Build timestamp: 2023-08-18 15:19:33.632917 UTC
+Build number: build1094
 Build type: release
-Build GUID: 9550eb492884d434da3e1b5325cf5a3c
-App version: 0.95
+Build GUID: aa5e6411abd54634fbeb1b473f7088bf
+App version: 0.96
 App identifier: 
 Build tags: 
 OS: Windows 10  (10.0.19044) 64bit
@@ -43,7 +43,7 @@ RAM: 16302
 GPU: NVIDIA GeForce GTX 1660
 GPU vendor: NVIDIA
 GPU memory: 5980
-Log timestamp: 2023-08-18 17:12:23 UTC 
+Log timestamp: 2023-09-09 19:56:06 UTC 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Command line args:
@@ -72,10 +72,10 @@ UiVisibilityManagerNonvr doesn't implement AllowAutoCreate method, assuming 'fal
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.560600 ms
+UnloadTime: 0.844200 ms
 
-Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 123825.
-Total: 92.180600 ms (FindLiveObjects: 5.973600 ms CreateObjectMapping: 13.229200 ms MarkObjects: 72.677100 ms  DeleteObjects: 0.300200 ms)
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 125030.
+Total: 75.784000 ms (FindLiveObjects: 3.728600 ms CreateObjectMapping: 9.659600 ms MarkObjects: 62.142900 ms  DeleteObjects: 0.252500 ms)
 
 C:\Games\Derail Valley\localization 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
@@ -90,16 +90,24 @@ C:\Games\Derail Valley\localization
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.876400 ms
+UnloadTime: 0.727100 ms
 [SceneSwitcher] no queued scene, switching to next scene with index 3 (nextSceneToLoad was -1) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 123824.
-Total: 87.218100 ms (FindLiveObjects: 4.048800 ms CreateObjectMapping: 10.937200 ms MarkObjects: 72.056400 ms  DeleteObjects: 0.175200 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 125029.
+Total: 73.052800 ms (FindLiveObjects: 3.289200 ms CreateObjectMapping: 9.122600 ms MarkObjects: 60.491100 ms  DeleteObjects: 0.149700 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.912100 ms
+WARNING: Shader Unsupported: 'OvrAvatar/AvatarSurfaceShader' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'OvrAvatar/Avatar_PC_SingleComponentExpressive' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'OvrAvatar/AvatarSurfaceShaderSelfOccluding' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'OvrAvatar/AvatarPBRV2Simple' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+UnloadTime: 0.785500 ms
 DV.UserManagement.UserManager doesn't implement AllowAutoCreate method, assuming 'false' 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -116,6 +124,21 @@ Save importing phase done.
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Wrote key bindings configuration: C:\Users\Dmytro\AppData\LocalLow\Altfuture\Derail Valley\Preferences\000_Player.ini 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Couldn't parse entry '' for preference 'TouchInteraction'. Trying to set default value. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Couldn't parse entry '' for preference 'TextureStreamingEnabled'. Trying to set default value. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Couldn't parse entry '' for preference 'TextureStreamingMemoryBudget'. Trying to set default value. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Couldn't parse entry '' for preference 'TextureStreamingEnabled'. Trying to set default value. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Couldn't parse entry '' for preference 'TextureStreamingMemoryBudget'. Trying to set default value. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Wrote game preferences configuration: C:\Users\Dmytro\AppData\LocalLow\Altfuture\Derail Valley\Preferences\000_Player.ini 
@@ -149,8 +172,8 @@ RefreshData fallback to empty lists (gameMode: '', userProfileProvider null?: Tr
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 151511.
-Total: 143.052300 ms (FindLiveObjects: 13.234600 ms CreateObjectMapping: 13.716800 ms MarkObjects: 115.829200 ms  DeleteObjects: 0.271000 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 152857.
+Total: 108.800400 ms (FindLiveObjects: 4.797800 ms CreateObjectMapping: 8.745900 ms MarkObjects: 95.071600 ms  DeleteObjects: 0.184700 ms)
 
 VR is not enabled, destroying MainMenuVREnabler 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
@@ -174,6 +197,51 @@ Supported resolutions:
 1920 x 1080 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
+PreferencesName key 'SeatedPlayAreaType' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'ComfortTunnel' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'SmoothLocomotion' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'UseControllerDirection' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'RotationMode' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'VRTeleportOrientation' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'SnapRotationAngle' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'SmoothRotationSpeed' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'StrafeSpeedMultiplier' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'RunSpeedMultiplier' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'SmoothLocomotionEasing' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'PlayerSeatedHeight' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'PlayerRoomscaleHeight' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'ItemHoldType' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'TouchInteraction' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
 SaveLoadController session is null 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -190,12 +258,18 @@ UIMenuController proceeding with switching the menu to index 0
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Texture streaming is enabled. Memory budget is 4186 (70%) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
 WorldStreamingInit doesn't implement AllowAutoCreate method, assuming 'false' 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 
-Unloading 275 unused Assets to reduce memory usage. Loaded Objects now: 153154.
-Total: 139.200100 ms (FindLiveObjects: 6.820500 ms CreateObjectMapping: 10.899800 ms MarkObjects: 120.058200 ms  DeleteObjects: 1.421100 ms)
+Unloading 274 unused Assets to reduce memory usage. Loaded Objects now: 154501.
+Total: 114.904600 ms (FindLiveObjects: 5.532500 ms CreateObjectMapping: 9.156200 ms MarkObjects: 99.304300 ms  DeleteObjects: 0.911300 ms)
+
+UIMenuController proceeding with switching the menu to index 0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [MainMenuMusicFadeout] waiting for loading screen progress 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
@@ -204,16 +278,26 @@ Creating CoroutineManager singleton instance '[coroutine manager]' automatically
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 35.065900 ms
+UnloadTime: 27.990500 ms
 [SceneSwitcher] switching to queued scene with index 4 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 
-Unloading 741 unused Assets to reduce memory usage. Loaded Objects now: 124646.
-Total: 100.022800 ms (FindLiveObjects: 4.133200 ms CreateObjectMapping: 10.076100 ms MarkObjects: 84.550100 ms  DeleteObjects: 1.263000 ms)
+Unloading 744 unused Assets to reduce memory usage. Loaded Objects now: 125852.
+Total: 85.978100 ms (FindLiveObjects: 3.407600 ms CreateObjectMapping: 8.394600 ms MarkObjects: 73.310600 ms  DeleteObjects: 0.864900 ms)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.939900 ms
+WARNING: Shader Unsupported: 'OvrAvatar/AvatarPBRV2Simple' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'AwesomeTechnologies/VS_SpeedTree' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'OvrAvatar/AvatarSurfaceShaderSelfOccluding' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'OvrAvatar/AvatarSurfaceShader' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'OvrAvatar/Avatar_PC_SingleComponentExpressive' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+UnloadTime: 0.749000 ms
 [UserManagerInstantiator] doing nothing, UserManager already exists 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -229,13 +313,13 @@ Wrote game preferences configuration: C:\Users\Dmytro\AppData\LocalLow\Altfuture
 Wrote game preferences configuration: C:\Users\Dmytro\AppData\LocalLow\Altfuture\Derail Valley\Preferences\000_Player.ini 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[MemoryMonitoring] free: 10357016 KB, total: 19052612 KB 
+[MemoryMonitoring] free: 9975608 KB, total: 18135048 KB 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Creating CoroutineManager singleton instance '[coroutine manager]' automatically 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Loading] загрузка начальных игровых данных (step: 1, frame: 12535) 
+[Loading] загрузка начальных игровых данных (step: 1, frame: 23795) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Creating DV.UI.LocoHUD.HUDHoverManager singleton instance '[HUDHoverManager]' automatically 
@@ -251,16 +335,10 @@ Creating DV.AppUtil singleton instance '[AppUtil]' automatically
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 
-Unloading 187 unused Assets to reduce memory usage. Loaded Objects now: 193298.
-Total: 156.691900 ms (FindLiveObjects: 12.908400 ms CreateObjectMapping: 15.512600 ms MarkObjects: 127.821900 ms  DeleteObjects: 0.448200 ms)
+Unloading 187 unused Assets to reduce memory usage. Loaded Objects now: 195074.
+Total: 118.890300 ms (FindLiveObjects: 6.794100 ms CreateObjectMapping: 10.268100 ms MarkObjects: 101.527300 ms  DeleteObjects: 0.300400 ms)
 
 Creating LoadingScreenManager singleton instance '[LoadingScreenManager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Supported resolutions: 
@@ -282,58 +360,13 @@ Supported resolutions:
 1920 x 1080 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
 Creating DV.UI.LocoHUD.HUDUpdateManager singleton instance '[HUDUpdateManager]' automatically 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Creating DV.Hovering.NonVRHoverManager singleton instance '[NonVRHoverManager]' automatically 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture streaming is enabled. Memory budget is 4186 (70%) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Creating DV.DopplerEffects.DopplerStopRequests singleton instance '[DopplerStopRequests]' automatically 
@@ -360,21 +393,21 @@ SaveGameManager found StartGameData_FromSaveGame
 Overriding saved difficulty parameters via difficultyParamsOverride: Standard 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Loading] инициализация растительности (step: 2, frame: 12536) 
+[Loading] инициализация растительности (step: 2, frame: 23796) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Loading] инициализация местности (step: 3, frame: 12537) 
+[Loading] инициализация местности (step: 3, frame: 23797) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-[Loading] загрузка путей (step: 4, frame: 12539) 
+[Loading] загрузка путей (step: 4, frame: 23799) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Creating TunnelCollisionIgnore+TunnelCollisionCache singleton instance '[TunnelCollisionCache]' automatically 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Loading] загрузка железнодорожных объектов (step: 5, frame: 12541) 
+[Loading] загрузка железнодорожных объектов (step: 5, frame: 23801) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Creating DV.WorldData singleton instance '[WorldData]' automatically 
@@ -386,7 +419,7 @@ Junctions hashes match 'FC85F2962C92ADC2CEAAB1EB08926870'
 Junctions state loaded 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Loading] загрузка игрового контента (step: 6, frame: 12542) 
+[Loading] загрузка игрового контента (step: 6, frame: 23802) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Creating LicenseManager singleton instance '[LicenseManager]' automatically 
@@ -437,1145 +470,31 @@ Creating DV.UI.CursorManager singleton instance '[CursorManager]' automatically
 Creating CookeryVolumeTracker+VolumeUpdater singleton instance '[Cookery volume tracker]' automatically 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Loading] создание игрока (step: 7, frame: 12544) 
+[Loading] создание игрока (step: 7, frame: 23804) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Creating YardTracksOrganizer singleton instance '[YardTracksOrganizer]' automatically 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Loading] инициализация вагонного парка (step: 8, frame: 12545) 
+[Loading] инициализация вагонного парка (step: 8, frame: 23805) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Car pool initialized. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Loading] восстановление сохранённой игры (step: 9, frame: 12589) 
+[Loading] восстановление сохранённой игры (step: 9, frame: 23849) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Verified unchanged difficulty: True 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Loaded time and date 07/21/2016 22:56:11 
+Loaded time and date 07/22/2016 23:04:11 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Creating DV.BedSleepingController singleton instance '[BedSleepingController]' automatically 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[BedSleepingController] Last bed wakeup time initialized to 07/21/2016 14:56:11 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[BedSleepingController] Loaded last bed wakeup time: 07/21/2016 14:43:33 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating UnlockablesManager singleton instance '[UnlockablesManager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unlocked general licenses: TrainDriver, DE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unlocked job licenses: FreightHaul, Shunting 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unlocked garages:  
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unlocked items:  
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Loaded player position: (12849.6, 140.2, 11046.3) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Loaded Licenses and Garages:
-GL: GeneralLicenseType_TrainDriver (DV.ThingTypes.GeneralLicenseType_v2), GeneralLicenseType_DE2 (DV.ThingTypes.GeneralLicenseType_v2), 
-JL: System.Collections.Generic.HashSet`1[DV.ThingTypes.JobLicenseType_v2]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Rail track hashes match '346E0028A5155A369B04E806CD53269A' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating UnusedTrainCarDeleter singleton instance '[UnusedTrainCarDeleter]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.PhysicsStuff.PhysicsLodManager singleton instance '[physics lod]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [tm.DYNAMIC_BRAKE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [tmDirectionalCooler.TARGET_TEMPERATURE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [de.SEC_GOAL_POWER] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [de.TEMPERATURE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.InternalExternalSnapshotSwitcherManager singleton instance '[InternalExternalSnapshotSwitcherManager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.ServicePenalty.LocoDebtController singleton instance '[LocoDebtController]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.ServicePenalty.CareerManagerDebtController singleton instance '[CareerManagerDebtController]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [de.RETARDER] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [fcCooler.TARGET_TEMPERATURE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [fcAutomaticCooler.TARGET_TEMPERATURE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [tm.DYNAMIC_BRAKE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [tmDirectionalCooler.TARGET_TEMPERATURE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [de.SEC_GOAL_POWER] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [de.TEMPERATURE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [tm.DYNAMIC_BRAKE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [tmDirectionalCooler.TARGET_TEMPERATURE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [de.SEC_GOAL_POWER] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [de.TEMPERATURE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Cars loaded 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] ожидание окончания загрузки местности (step: 10, frame: 12592) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Waiting for TerrainGrid to load terrains 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] инициализация стриминга (step: 11, frame: 12642) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] ожидание окончания загрузки стриминга данных (step: 12, frame: 12643) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[MainMenuMusicFadeout] starting fade-out 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UpdateVSProCamera assigning camera 'camera' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-LayerLODSetup updating culling distances for camera 'camera' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-StartingItemsController initializing 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating JobSaveManager singleton instance '[JobSaveManager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.Logic.Job.JobsManager singleton instance '[JobsManager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.ServicePenalty.JobDebtController singleton instance '[JobDebtController]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Successfully loaded job chain: [LOADED] ChainJob[Transport]: GF - FF 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Successfully loaded job chain: [LOADED] ChainJob[Transport]: GF - MF 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Successfully loaded job chain: [LOADED] ChainJob[EmptyHaul]: GF - OWC 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Successfully loaded job chain: [LOADED] ChainJob[Transport]: GF - HB 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Successfully loaded job chain: [LOADED] ChainJob[ShuntingLoad]: GF - CSW 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Successfully loaded job chain: [LOADED] ChainJob[ShuntingUnload]: SM - GF 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Loaded existing locos debt 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Loaded destroyed locos debt 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Loaded existing jobs debt 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Loaded staged jobs debt 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Loaded deleted jobless cars debt 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Loaded insurance fee data 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Hazmat data loaded 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-12748 - carsAndJobsLoadingFinished 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] Готово (step: 13, frame: 12748) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-SaveLoadController session is null 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UIMenuController proceeding with switching the menu to index 2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UIMenuController proceeding with switching the menu to index 3 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-ManualDataLoader: Manual data loaded for language: 'russian'. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UIMenuController proceeding with switching the menu to index 4 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UIMenuController proceeding with switching the menu to index 1 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UIMenuController proceeding with switching the menu to index 2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UIMenuController proceeding with switching the menu to index 0 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Destroying StartGameData_FromSaveGame '[start game data] (StartGameData_FromSaveGame)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[MainMenuMusicFadeout] destroying main menu music 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating MouseUiInputEvents singleton instance '[MouseUiInputEvents]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Sleeping allowed.
-Last sleep: 07/21 14:43
-Current time: 07/21 23:26
-Must wait: 8 hours
-Time elapsed since last sleep: 8.71282777777778 hours
-Is in moving car: False 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UIMenuController proceeding with switching the menu to index 0 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UIMenuController proceeding with switching the menu to index 1 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[CameraAnchorBedSleepingAnimation] something is null, disabling self 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[CameraAnchorBedSleepingAnimation] found closest bed: Sofa_interactable 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Removed 1 null entries from storage [Storage World] 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Switched to screen Лицензии 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Switched to screen Задолженности 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Switched to screen Лицензии 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Job GF-SU-11 is assigned to player 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Breaking hose connection due to separation 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.DateTimeWrapper singleton instance '[DateTimeWrapper]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unloaded: 1 SteelBillets from Car[CFF484] 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unloaded: 1 SteelBillets from Car[CFF450] 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unloaded: 1 SteelBillets from Car[CFF703] 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unloaded: 1 SteelBillets from Car[CFF556] 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unloaded: 1 SteelBillets from Car[CFF787] 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[MemoryMonitoring] OS increased system memory from 19052612 to 20120520 KB 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarFlatcar(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarFlatcar(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarTankBlue(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarTankBlue(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Generated job chain [ChainJob[EmptyHaul]: GF - CSW]:  
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Generated job chain [ChainJob[EmptyHaul]: GF - MF]:  
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Switched to screen Задолженности 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Removed 1 null entries from storage [Storage World] 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Switched to screen Лицензии 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Job GF-FH-80 is assigned to player 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarBoxcar_Red(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarBoxcar_Red(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'CarBoxcar_Red(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'CarBoxcar_Red(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-TunnelCollisionIgnore encountered a null rigidbody during TransferTo 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-TunnelCollisionIgnore encountered a null rigidbody during TransferTo 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-TunnelCollisionIgnore encountered a null rigidbody during TransferTo 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-TunnelCollisionIgnore encountered a null rigidbody during TransferTo 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-TunnelCollisionIgnore encountered a null rigidbody during TransferTo 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-TunnelCollisionIgnore encountered a null rigidbody during TransferTo 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-TunnelCollisionIgnore encountered a null rigidbody during TransferTo 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Cleaning up null rigidbody 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Cleaning up null rigidbody 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Cleaning up null rigidbody 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Cleaning up null rigidbody 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Cleaning up null rigidbody 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Cleaning up null rigidbody 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Cleaning up null rigidbody 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Due to stress build up: 0.6007352 at speed: 67.10551 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Via TrainCar, due to derailAllBogiesAtOnce | TYPE: LocoDE2 | ID: L-077 | JOB_ID: / 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Via TrainCar, due to derailAllBogiesAtOnce | TYPE: LocoDE2 | ID: L-077 | JOB_ID: / 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.Utils.FixedUpdateTick singleton instance '[FixedUpdateTick]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Due to stress build up: 0.606662 at speed: 66.93797 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Via TrainCar, due to derailAllBogiesAtOnce | TYPE: BoxcarRed | ID: CBX401 | JOB_ID: GF-FH-80 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Via TrainCar, due to derailAllBogiesAtOnce | TYPE: BoxcarRed | ID: CBX401 | JOB_ID: GF-FH-80 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Due to stress build up: 0.6301985 at speed: 64.59819 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Via TrainCar, due to derailAllBogiesAtOnce | TYPE: BoxcarBrown | ID: CBX696 | JOB_ID: GF-FH-80 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Via TrainCar, due to derailAllBogiesAtOnce | TYPE: BoxcarBrown | ID: CBX696 | JOB_ID: GF-FH-80 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Due to stress build up: 0.6197967 at speed: 64.69092 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Via TrainCar, due to derailAllBogiesAtOnce | TYPE: FlatbedEmpty | ID: CFF055 | JOB_ID: GF-FH-80 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Via TrainCar, due to derailAllBogiesAtOnce | TYPE: FlatbedEmpty | ID: CFF055 | JOB_ID: GF-FH-80 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Due to stress build up: 0.6136296 at speed: 63.90943 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Via TrainCar, due to derailAllBogiesAtOnce | TYPE: FlatbedEmpty | ID: CFF134 | JOB_ID: GF-FH-80 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-DERAILED! Via TrainCar, due to derailAllBogiesAtOnce | TYPE: FlatbedEmpty | ID: CFF134 | JOB_ID: GF-FH-80 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Couldn't apply localization '', passed component is null 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Couldn't apply localization '', passed component is null 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Couldn't apply localization '', passed component is null 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Couldn't apply localization '', passed component is null 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Couldn't apply localization '', passed component is null 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Couldn't apply localization '', passed component is null 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player entering car 'LocoDE2(Clone) (TrainCar)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[QuickTutorialInitiator] Already passed quick tutorial for LocoDE2 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Player exiting car 'LocoDE2(Clone)' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Autosaving 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UIMenuController proceeding with switching the menu to index 0 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UIMenuController proceeding with switching the menu to index 0 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UIMenuController proceeding with switching the menu to index 1 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Couldn't apply localization '', passed component is null 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Couldn't apply localization '', passed component is null 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-Uploading Crash Report
-UnityException: Trying to destroy invalid instance of 'Bolt.SceneVariables' singleton in scene 'game_w3'.
-  at Ludiq.SceneSingleton`1[T].OnDestroy (T instance) [0x00100] in <afc846f684364b38be7b9624a972dc39>:0 
-  at Bolt.SceneVariables.OnDestroy () [0x00000] in <efb81956579344b9ab72ac0fca6778a3>:0 
- 
-(Filename: <afc846f684364b38be7b9624a972dc39> Line: 0)
-
-UnloadTime: 1296.055200 ms
-[SceneSwitcher] switching to queued scene with index 4 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 21215 unused Assets to reduce memory usage. Loaded Objects now: 127964.
-Total: 242.816400 ms (FindLiveObjects: 11.118400 ms CreateObjectMapping: 14.391000 ms MarkObjects: 146.171600 ms  DeleteObjects: 71.134900 ms)
-
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.047100 ms
-[UserManagerInstantiator] doing nothing, UserManager already exists 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Wrote key bindings configuration: C:\Users\Dmytro\AppData\LocalLow\Altfuture\Derail Valley\Preferences\000_Player.ini 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Wrote game preferences configuration: C:\Users\Dmytro\AppData\LocalLow\Altfuture\Derail Valley\Preferences\000_Player.ini 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Wrote game preferences configuration: C:\Users\Dmytro\AppData\LocalLow\Altfuture\Derail Valley\Preferences\000_Player.ini 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Wrote game preferences configuration: C:\Users\Dmytro\AppData\LocalLow\Altfuture\Derail Valley\Preferences\000_Player.ini 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[MemoryMonitoring] free: 4248492 KB, total: 20120520 KB 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating CoroutineManager singleton instance '[coroutine manager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] загрузка начальных игровых данных (step: 1, frame: 194671) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.UI.LocoHUD.HUDHoverManager singleton instance '[HUDHoverManager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.Telemetry.TelemetryCentral singleton instance '[TelemetryCentral]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.Debugging.EffectsTogglerDebug singleton instance '[EffectsTogglerDebug]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.AppUtil singleton instance '[AppUtil]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 196252.
-Total: 214.056600 ms (FindLiveObjects: 11.401400 ms CreateObjectMapping: 14.942300 ms MarkObjects: 187.474300 ms  DeleteObjects: 0.237900 ms)
-
-Creating LoadingScreenManager singleton instance '[LoadingScreenManager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Supported resolutions: 
-800 x 600
-1024 x 768
-1152 x 864
-1280 x 720
-1280 x 768
-1280 x 800
-1280 x 960
-1280 x 1024
-1360 x 768
-1366 x 768
-1440 x 900
-1440 x 1080
-1600 x 900
-1600 x 1024
-1680 x 1050
-1920 x 1080 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.UI.LocoHUD.HUDUpdateManager singleton instance '[HUDUpdateManager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.Hovering.NonVRHoverManager singleton instance '[NonVRHoverManager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.DopplerEffects.DopplerStopRequests singleton instance '[DopplerStopRequests]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating ScreenspaceMouse singleton instance '[ScreenspaceMouse]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.PausePhysicsHandler singleton instance '[PausePhysicsHandler]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.Logic.Job.IdGenerator singleton instance '[IdGenerator]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.VFX.TrainVegetationInteractionManager singleton instance '[TrainVegetationInteractionManager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.Simulation.Brake.HoseSeparationChecker singleton instance '[HoseSeparationChecker]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-SaveGameManager found StartGameData_FromSaveGame 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Overriding saved difficulty parameters via difficultyParamsOverride: Standard 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] инициализация растительности (step: 2, frame: 194672) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] инициализация местности (step: 3, frame: 194673) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] загрузка путей (step: 4, frame: 194675) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating TunnelCollisionIgnore+TunnelCollisionCache singleton instance '[TunnelCollisionCache]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] загрузка железнодорожных объектов (step: 5, frame: 194677) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.WorldData singleton instance '[WorldData]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Junctions hashes match 'FC85F2962C92ADC2CEAAB1EB08926870' 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Junctions state loaded 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] загрузка игрового контента (step: 6, frame: 194678) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating LicenseManager singleton instance '[LicenseManager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating StorageController singleton instance '[StorageController]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.TimeKeeping.WorldClockController singleton instance '[WorldClockController]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unable to find style 'miniButton' in skin 'GameSkin' repaint 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unable to find style 'miniButton' in skin 'GameSkin' repaint 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.ItemDisablerGrid singleton instance '[ItemDisablerGrid]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-TerrainImposter new bounds (100.0, 4800.0, 100.0) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating ReflectionProbeScheduler singleton instance '[ReflectionProbeScheduler]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating RailTrackRegistry singleton instance '[RailTrackRegistry]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-RailTrackRegistry found 1637 tracks using FindObjectsOfType 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-TutorialReferencer waiting for player 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[TutorialEnabler] completedTutorialPartOne: True, completedTutorialPartTwo: True, completedTutorialAll: True 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[TutorialEnabler] Not enabling tutorial 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating MouseWheelHoverScroller singleton instance '[MouseWheelHoverScroller]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.UI.CursorManager singleton instance '[CursorManager]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating CookeryVolumeTracker+VolumeUpdater singleton instance '[Cookery volume tracker]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] создание игрока (step: 7, frame: 194680) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating YardTracksOrganizer singleton instance '[YardTracksOrganizer]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] инициализация вагонного парка (step: 8, frame: 194681) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Car pool initialized. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Loading] восстановление сохранённой игры (step: 9, frame: 194725) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Verified unchanged difficulty: True 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Loaded time and date 07/22/2016 16:28:19 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Creating DV.BedSleepingController singleton instance '[BedSleepingController]' automatically 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[BedSleepingController] Last bed wakeup time initialized to 07/22/2016 08:28:19 
+[BedSleepingController] Last bed wakeup time initialized to 07/22/2016 15:04:11 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [BedSleepingController] Loaded last bed wakeup time: 07/22/2016 07:28:49 
@@ -1596,7 +515,7 @@ Unlocked garages:
 Unlocked items:  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Loaded player position: (12072.3, 133.5, 10571.8) 
+Loaded player position: (2305.8, 160.8, 10326.1) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Loaded Licenses and Garages:
@@ -1641,6 +560,24 @@ Creating DV.ServicePenalty.LocoDebtController singleton instance '[LocoDebtContr
 Creating DV.ServicePenalty.CareerManagerDebtController singleton instance '[CareerManagerDebtController]' automatically 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
+Port reader [tm.DYNAMIC_BRAKE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmDirectionalCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.SEC_GOAL_POWER] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
 Port reader [de.RETARDER] is not set. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1650,19 +587,13 @@ Port reader [fcCooler.TARGET_TEMPERATURE] is not set.
 Port reader [fcAutomaticCooler.TARGET_TEMPERATURE] is not set. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Port reader [tm.DYNAMIC_BRAKE] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
 Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Port reader [tmDirectionalCooler.TARGET_TEMPERATURE] is not set. 
+Port reader [tmDBCooler.TARGET_TEMPERATURE] is not set. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Port reader [de.SEC_GOAL_POWER] is not set. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Port reader [de.TEMPERATURE] is not set. 
@@ -1681,6 +612,30 @@ Port reader [de.INTERNAL_ENGINE_OFF] is not set.
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Port reader [de.SEC_GOAL_POWER] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmDBCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmDBCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Port reader [de.TEMPERATURE] is not set. 
@@ -1689,23 +644,27 @@ Port reader [de.TEMPERATURE] is not set.
 Cars loaded 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Loading] ожидание окончания загрузки местности (step: 10, frame: 194728) 
+[Loading] ожидание окончания загрузки местности (step: 10, frame: 23852) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Waiting for TerrainGrid to load terrains 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Loading] инициализация стриминга (step: 11, frame: 194776) 
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Splatmap/Diffuse-AddPass' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Splatmap/Diffuse-AddPass' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+[Loading] инициализация стриминга (step: 11, frame: 23900) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Loading] ожидание окончания загрузки стриминга данных (step: 12, frame: 194777) 
+[Loading] ожидание окончания загрузки стриминга данных (step: 12, frame: 23901) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Animator.GotoState: State could not be found 
-(Filename:  Line: 1349)
+[MainMenuMusicFadeout] starting fade-out 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Invalid Layer Index '-1' 
-(Filename:  Line: 915)
+Texture streaming is enabled. Memory budget is 4186 (70%) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 UpdateVSProCamera assigning camera 'camera' 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
@@ -1725,28 +684,34 @@ Creating DV.Logic.Job.JobsManager singleton instance '[JobsManager]' automatical
 Creating DV.ServicePenalty.JobDebtController singleton instance '[JobDebtController]' automatically 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Successfully loaded job chain: [LOADED] ChainJob[Transport]: GF - FF 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
 Matched job and job booklet [GF-FH-80] 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Successfully loaded job chain: [LOADED] ChainJob[Transport]: GF - MF 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Successfully loaded job chain: [LOADED] ChainJob[EmptyHaul]: GF - OWC 
+Successfully loaded job chain: [LOADED] ChainJob[Transport]: MF - HB 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Successfully loaded job chain: [LOADED] ChainJob[Transport]: GF - HB 
+Successfully loaded job chain: [LOADED] ChainJob[Transport]: MF - HB 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Successfully loaded job chain: [LOADED] ChainJob[ShuntingLoad]: GF - CSW 
+Successfully loaded job chain: [LOADED] ChainJob[EmptyHaul]: MF - CSW 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Successfully loaded job chain: [LOADED] ChainJob[EmptyHaul]: GF - CSW 
+Successfully loaded job chain: [LOADED] ChainJob[Transport]: MF - HB 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Successfully loaded job chain: [LOADED] ChainJob[EmptyHaul]: GF - MF 
+Successfully loaded job chain: [LOADED] ChainJob[EmptyHaul]: MF - FF 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Successfully loaded job chain: [LOADED] ChainJob[ShuntingUnload]: FF - MF 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Successfully loaded job chain: [LOADED] ChainJob[Transport]: MFMB - HMB 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Successfully loaded job chain: [LOADED] ChainJob[EmptyHaul]: MFMB - HMB 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Loaded existing locos debt 
@@ -1773,34 +738,61 @@ Player entering car 'LocoDE2(Clone) (TrainCar)'
 Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-194859 - Player teleported to car: LocoDE2(Clone) [interior] 
+23972 - Player teleported to car: LocoDE2(Clone) [interior] 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Hazmat data loaded 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-194859 - carsAndJobsLoadingFinished 
+23972 - carsAndJobsLoadingFinished 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Loading] Готово (step: 13, frame: 194859) 
+[Loading] Готово (step: 13, frame: 23972) 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Port reader [tm.DYNAMIC_BRAKE] is not set. 
+PreferencesName key 'SeatedPlayAreaType' not present in provider 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
+PreferencesName key 'ComfortTunnel' not present in provider 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Port reader [tmDirectionalCooler.TARGET_TEMPERATURE] is not set. 
+PreferencesName key 'SmoothLocomotion' not present in provider 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
+PreferencesName key 'UseControllerDirection' not present in provider 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Port reader [de.SEC_GOAL_POWER] is not set. 
+PreferencesName key 'RotationMode' not present in provider 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Port reader [de.TEMPERATURE] is not set. 
+PreferencesName key 'VRTeleportOrientation' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'SnapRotationAngle' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'SmoothRotationSpeed' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'StrafeSpeedMultiplier' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'RunSpeedMultiplier' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'SmoothLocomotionEasing' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'PlayerSeatedHeight' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'PlayerRoomscaleHeight' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'ItemHoldType' not present in provider 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreferencesName key 'TouchInteraction' not present in provider 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 SaveLoadController session is null 
@@ -1830,6 +822,219 @@ UIMenuController proceeding with switching the menu to index 0
 Destroying StartGameData_FromSaveGame '[start game data] (StartGameData_FromSaveGame)' 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
+[MainMenuMusicFadeout] destroying main menu music 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Creating MouseUiInputEvents singleton instance '[MouseUiInputEvents]' automatically 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Switched to screen Задолженности 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Removed 1 null entries from storage [Storage World] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Switched to screen Статистика 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Switched to screen Лицензии 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Switched to screen Лицензии 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Job MF-FH-19 is assigned to player 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Creating DV.DateTimeWrapper singleton instance '[DateTimeWrapper]' automatically 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[MemoryMonitoring] OS increased system memory from 18135048 to 19193920 KB 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[MemoryMonitoring] OS increased system memory from 19193920 to 20262544 KB 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
 UIMenuController proceeding with switching the menu to index 0 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1839,31 +1044,488 @@ UIMenuController proceeding with switching the menu to index 0
 UIMenuController proceeding with switching the menu to index 1 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Couldn't apply localization 'cancel', passed component is null 
+Game saved (Manual) at 11:47:07 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Couldn't apply localization to 'ButtonNo', passed bad key 
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.RETARDER] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [fcCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [fcAutomaticCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+CSW job generation started 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Generated ChainJob[ShuntingLoad]: CSW - SM (CSW-SL-13) | rng seed: 24943453
+Generated ChainJob[Transport]: CSW - SM (CSW-FH-80) | rng seed: 24943687
+Generated ChainJob[EmptyHaul]: CSW - OWC (CSW-LH-30) | rng seed: 24943984
+Generated ChainJob[EmptyHaul]: CSW - OWN (CSW-LH-65) | rng seed: 24944281
+Generated ChainJob[ShuntingUnload]: MF - CSW (CSW-SU-40) | rng seed: 24944578
+Generated ChainJob[ShuntingUnload]: HB - CSW (CSW-SU-72) | rng seed: 24944812
+Generated ChainJob[EmptyHaul]: CSW - OWC (CSW-LH-94) | rng seed: 24945640
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmDBCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Animator.GotoState: State could not be found 
+(Filename:  Line: 1349)
+
+Invalid Layer Index '-1' 
+(Filename:  Line: 915)
+
+OWC job generation started 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Couldn't generate any player licensed job
+Generated ChainJob[Transport]: OWC - FF (OWC-FH-46) | rng seed: 25216906
+Generated ChainJob[Transport]: OWC - HB (OWC-FH-10) | rng seed: 25217156
+Generated ChainJob[Transport]: OWC - HB (OWC-FH-45) | rng seed: 25217437
+Generated ChainJob[Transport]: OWC - HB (OWC-FH-88) | rng seed: 25217656
+Generated ChainJob[ShuntingLoad]: OWC - HB (OWC-SL-85) | rng seed: 25217937
+Generated ChainJob[ShuntingLoad]: OWC - FF (OWC-SL-52) | rng seed: 25218156
+Generated ChainJob[ShuntingLoad]: OWC - HB (OWC-SL-46) | rng seed: 25218421
+Generated ChainJob[ShuntingLoad]: OWC - HB (OWC-SL-81) | rng seed: 25218718
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[interior LOD] of 'LocoDM3(Clone)' has shadow casting set to 'On', changing it to 'Off' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [fluidCoupler.HYDRODYNAMIC_BRAKE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [fcCoolerPassive.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [fcCoolerDirectional.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Animator.GotoState: State could not be found 
+(Filename:  Line: 1349)
+
+Invalid Layer Index '-1' 
+(Filename:  Line: 915)
+
+FM job generation started 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Generated ChainJob[Transport]: FM - FF (FM-FH-21) | rng seed: 25335234
+Generated ChainJob[Transport]: FM - FF (FM-FH-05) | rng seed: 25335500
+Generated ChainJob[ShuntingLoad]: FM - FF (FM-SL-08) | rng seed: 25335718
+Generated ChainJob[ShuntingUnload]: MF - FM (FM-SU-57) | rng seed: 25335953
+Generated ChainJob[EmptyHaul]: FM - MF (FM-LH-73) | rng seed: 25336515
+Generated ChainJob[EmptyHaul]: FM - CSW (FM-LH-07) | rng seed: 25336781
+Generated ChainJob[EmptyHaul]: FM - GF (FM-LH-25) | rng seed: 25337078
+Generated ChainJob[ShuntingLoad]: FM - FF (FM-SL-24) | rng seed: 25337500
+Generated ChainJob[EmptyHaul]: FM - CSW (FM-LH-61) | rng seed: 25338093
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tm.DYNAMIC_BRAKE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmDirectionalCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.SEC_GOAL_POWER] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmDBCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UIMenuController proceeding with switching the menu to index 0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UIMenuController proceeding with switching the menu to index 1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Game saved (Manual) at 12:03:39 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UIMenuController proceeding with switching the menu to index 0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UIMenuController proceeding with switching the menu to index 1 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Couldn't apply localization '', passed component is null 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Rename save popup closed by Positive, data: --- 
+Couldn't apply localization '', passed component is null 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Game saved (Manual) at 9:05:37 
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Game overwritten (Manual) at 12:05:10 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Animator.GotoState: State could not be found 
+(Filename:  Line: 1349)
+
+Invalid Layer Index '-1' 
+(Filename:  Line: 915)
+
+Animator.GotoState: State could not be found 
+(Filename:  Line: 1349)
+
+Invalid Layer Index '-1' 
+(Filename:  Line: 915)
+
+Animator.GotoState: State could not be found 
+(Filename:  Line: 1349)
+
+Invalid Layer Index '-1' 
+(Filename:  Line: 915)
+
+Animator.GotoState: State could not be found 
+(Filename:  Line: 1349)
+
+Invalid Layer Index '-1' 
+(Filename:  Line: 915)
+
+Animator.GotoState: State could not be found 
+(Filename:  Line: 1349)
+
+Invalid Layer Index '-1' 
+(Filename:  Line: 915)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+HMB job generation started 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Couldn't generate any player licensed job
+Generated ChainJob[Transport]: HMB - MB (HMB-FH-01) | rng seed: 26421921
+Generated ChainJob[Transport]: HMB - MB (HMB-FH-90) | rng seed: 26422453
+Generated ChainJob[ShuntingUnload]: MFMB - HMB (HMB-SU-90) | rng seed: 26422671
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UIMenuController proceeding with switching the menu to index 0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UIMenuController proceeding with switching the menu to index 1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Game saved (Manual) at 12:14:47 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+HB job generation started 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Generated ChainJob[Transport]: HB - FF (HB-FH-62) | rng seed: 26448562
+Generated ChainJob[Transport]: HB - SM (HB-FH-73) | rng seed: 26448781
+Generated ChainJob[Transport]: HB - FF (HB-FH-70) | rng seed: 26449078
+Generated ChainJob[Transport]: HB - MF (HB-FH-18) | rng seed: 26449328
+Generated ChainJob[Transport]: HB - MF (HB-FH-17) | rng seed: 26449546
+Generated ChainJob[Transport]: HB - MF (HB-FH-11) | rng seed: 26449812
+Generated ChainJob[Transport]: HB - FF (HB-FH-24) | rng seed: 26450031
+Generated ChainJob[EmptyHaul]: HB - SM (HB-LH-36) | rng seed: 26450312
+Generated ChainJob[Transport]: HB - SM (HB-FH-25) | rng seed: 26450640
+Generated ChainJob[Transport]: HB - GF (HB-FH-52) | rng seed: 26450906
+Generated ChainJob[ShuntingUnload]: SM - HB (HB-SU-52) | rng seed: 26451203
+Generated ChainJob[Transport]: HB - GF (HB-FH-38) | rng seed: 26451421
+Generated ChainJob[EmptyHaul]: HB - OWN (HB-LH-89) | rng seed: 26451656
+Generated ChainJob[ShuntingUnload]: GF - HB (HB-SU-39) | rng seed: 26451921
+Generated ChainJob[ShuntingLoad]: HB - MF (HB-SL-52) | rng seed: 26452515
+Generated ChainJob[Transport]: HB - FF (HB-FH-06) | rng seed: 26452828
+Generated ChainJob[ShuntingLoad]: HB - CSW (HB-SL-79) | rng seed: 26453156
+Generated ChainJob[ShuntingUnload]: FF - HB (HB-SU-40) | rng seed: 26453500
+Generated ChainJob[EmptyHaul]: HB - MF (HB-LH-87) | rng seed: 26453796
+Generated ChainJob[ShuntingLoad]: HB - SM (HB-SL-43) | rng seed: 26454171
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmDBCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[interior LOD] of 'LocoS282A(Clone)' has shadow casting set to 'On', changing it to 'Off' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [boiler.FEEDWATER_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[interior LOD] of 'LocoS282A(Clone)' has shadow casting set to 'On', changing it to 'Off' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [boiler.FEEDWATER_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[interior LOD] of 'LocoDM3(Clone)' has shadow casting set to 'On', changing it to 'Off' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [fluidCoupler.HYDRODYNAMIC_BRAKE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [fcCoolerPassive.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [fcCoolerDirectional.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tm.DYNAMIC_BRAKE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmPassiveCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [tmDirectionalCooler.TARGET_TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.INTERNAL_ENGINE_OFF] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.SEC_GOAL_POWER] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Port reader [de.TEMPERATURE] is not set. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UIMenuController proceeding with switching the menu to index 0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UIMenuController proceeding with switching the menu to index 1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Couldn't apply localization '', passed component is null 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Couldn't apply localization '', passed component is null 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Game overwritten (Manual) at 12:17:06 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Uploading Crash Report
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+  at DV.UI.UIElementTooltip.GetGameObject () [0x00000] in <da72313b827d43faa856967ab2fe2a17>:0 
+  at DV.UI.TooltipHandler.UpdateTooltipText () [0x00035] in <da72313b827d43faa856967ab2fe2a17>:0 
+  at DV.UI.UIElementTooltip.OnDisable () [0x0001e] in <da72313b827d43faa856967ab2fe2a17>:0 
+UnityEngine.GameObject:SetActive(Boolean)
+DV.UI.CanvasProviderDV:Toggle(GameObject, ElementType, Boolean)
+DV.UI.<>c__DisplayClass15_0:<Awake>b__0(Single)
+DV.UI.Requests.RequestSystem:Refresh()
+DV.UI.Requests.RequestSystem:SetDefaultValue(Single)
+DV.UI.ACanvasController`1:TrySetState(Element, Boolean)
+DV.UI.ACanvasController`1:TrySetState(ElementType, Boolean)
+DV.UI.ACanvasController`1:TryToggleState(ElementType)
+DV.UI.ACanvasController`1:Update()
+ 
+(Filename: <da72313b827d43faa856967ab2fe2a17> Line: 0)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UIMenuController proceeding with switching the menu to index 0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+attachedTo should've been assigned from other coupler's Attached state entry action 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+attachedTo should've been assigned from other coupler's Attached state entry action 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player entering car 'LocoDE2(Clone) (TrainCar)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting 'LocoDE2(Clone) (TrainCar)' as Player's last loco. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Player exiting car 'LocoDE2(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Switched to screen Задолженности 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Switched to screen Лицензии 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Removed 2 null entries from storage [Storage World] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Autosaving 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LoadedPak set to null in Dispose call 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Application quit requested 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Setting up 3 worker threads for Enlighten.
-  Thread -> id: 26c4 -> priority: 1 
-  Thread -> id: ab8 -> priority: 1 
-  Thread -> id: ca4 -> priority: 1 
+  Thread -> id: 1a18 -> priority: 1 
+  Thread -> id: 2088 -> priority: 1 
+  Thread -> id: 17d8 -> priority: 1 
 UnityException: Trying to destroy invalid instance of 'Bolt.SceneVariables' singleton in scene 'game_w3'.
   at Ludiq.SceneSingleton`1[T].OnDestroy (T instance) [0x00100] in <afc846f684364b38be7b9624a972dc39>:0 
   at Bolt.SceneVariables.OnDestroy () [0x00000] in <efb81956579344b9ab72ac0fca6778a3>:0 
  
 (Filename: <afc846f684364b38be7b9624a972dc39> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MouseWheelHoverScroller.OnUnHovered (DV.Interaction.AGrabHandler _) [0x00019] in <4dd6bf05cc8c4e4288a4683024f156b0>:0 
+  at (wrapper delegate-invoke) System.Action`1[DV.Interaction.AGrabHandler].invoke_void_T(DV.Interaction.AGrabHandler)
+  at DV.Interaction.GrabberRaycasterDV.UpdateDesiredHover (DV.Interaction.AGrabHandler desiredHoverHandler) [0x00031] in <4dd6bf05cc8c4e4288a4683024f156b0>:0 
+  at DV.Interaction.GrabberRaycasterDV.ReleaseHover () [0x00013] in <4dd6bf05cc8c4e4288a4683024f156b0>:0 
+  at DV.Interaction.GrabberRaycasterDV.OnDisable () [0x00000] in <4dd6bf05cc8c4e4288a4683024f156b0>:0 
+ 
+(Filename: <4dd6bf05cc8c4e4288a4683024f156b0> Line: 0)
 
